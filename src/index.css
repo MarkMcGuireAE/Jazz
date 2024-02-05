@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("") */
+
+@layer base {
+    /* body {
+        @apply font-[];
+
+    } */
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+} 
