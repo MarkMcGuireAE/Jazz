@@ -14,7 +14,7 @@ const Navbar = () => {
         SetNav(!nav)
     }
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 '>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f2ee3b3] text-[#f2d785] font-bold rounded-lg '>
         <div>
             <img src={Logo} alt="Logo Image" style={{width: "80px"}} />
             
@@ -89,7 +89,7 @@ const Navbar = () => {
             className={ 
                 !nav
                 ? "hidden"
-                : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+                : "absolute top-0 left-0 w-full h-screen bg-[#418fbf] flex flex-col justify-center items-center"
 
             }
             >
@@ -146,34 +146,34 @@ const Navbar = () => {
             </ul>
 
             {/* Social Icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0  '>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-lg hover:ml-[-10px] duration-300 bg-[#418fbf]'>
                     <a 
-                        className='flex justify-between items-center w-full text-gray-300'
+                        className='flex justify-between items-center w-full text-white'
                         href='http://www.linkedin.com/in/markmcguirese'>
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-white'
               href='https://github.com/MarkMcGuireAE'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f2695c]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-white'
               href='mailto:mark.mcguire44@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f2d785]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-white'
               href={Resume}
             >
               Resume <BsFillPersonLinesFill size={30} />

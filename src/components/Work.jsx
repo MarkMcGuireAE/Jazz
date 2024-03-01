@@ -11,13 +11,13 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full min-h-[850px] text-[#594b20] bg-[#8b8b81cc]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-blue-300'>
+        <div className='pb-8 text-center'>
+          <p className='text-4xl font-bold inline border-b-4 text-[#f2e3b3] border-[#418fbf] shadow-white'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6 text-2xl text-[#f2e3b3]'>Check out some of my recent work</p>
         </div>
 
 {/* container for projects */}
@@ -28,32 +28,32 @@ const Work = () => {
             
   <div
     key={index}
-    className="shadow-md shadow-[#040c16] rounded-lg h-{500px} hover:scale-110 duration-500"
+    className="shadow-md shadow-[#594b20] bg-[#418fbf]  rounded-lg  h-[550px] text-[#f2e3b3]  hover:scale-110 duration-500"
   >
-    <img className="border-4 border-blue-300 h-[250px]" src={item.image}/>
+    <img className="border-4 border-[#418fbf] h-[250px] rounded" src={item.image}/>
    
-   <div className='bg-blue-300 text-white'>
+   
   
       <p className='text-3xl text-center font-bold'>{item.name}</p>
       <br></br>
-      <p>{item.caption}</p>
-      <div className='bg-blue-500 inline-block p-3 m-2'>
+      <p className='h-[185px] p-4 '>{item.caption}</p>
+      
       <a href= {item.github}>
-        <button>
+        <button className='bg-[#d9583b] inline-block p-3 m-3  text-white rounded-md'>
             <FaGithub />
         </button>
       </a>
-      </div>
+     
    
-      <div className='bg-blue-500 inline-block p-3 m-1'>
+    
       <a href= {item.live}>
-        <button>
+        <button className='bg-[#d9583b] inline-block p-3 m-1 text-white rounded-md'>
             <CgWebsite />
         </button>
       </a>
-      </div>
+    
 
-      </div>
+      
     
     </div>
     
