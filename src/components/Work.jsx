@@ -28,7 +28,7 @@ const Work = () => {
             
   <div
     key={index}
-    className="shadow-md shadow-[#594b20] bg-[#418fbf]  rounded-lg  h-[550px] text-[#f2e3b3]  hover:scale-110 duration-500"
+    className="shadow-md shadow-[#594b20] bg-[#418fbf]  rounded-lg  h-[575px] text-[#f2e3b3]  hover:scale-110 duration-500"
   >
     <img className="border-4 border-[#418fbf] h-[250px] rounded" src={item.image}/>
    
@@ -36,7 +36,7 @@ const Work = () => {
   
       <p className='text-3xl text-center font-bold'>{item.name}</p>
       <br></br>
-      <p className='h-[185px] p-4 '>{item.caption}</p>
+      <p className='h-[200px] p-4 '>{item.caption}</p>
       
       <a href= {item.github}>
         <button className='bg-[#d9583b] inline-block p-3 m-3  text-white rounded-md'>
