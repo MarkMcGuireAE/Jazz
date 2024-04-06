@@ -4,23 +4,21 @@ import { Link } from "react-scroll"
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-[750px] bg-[#8b8b81cc]'>
+    <div name='home' className='w-full h-[750px] bg-[#313640]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-[#f2e3b3] text-xl'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#f2695c] shadow-white'>
-          Mark McGuire
+        <p className='text-[#F2F2F2] text-xl'>Hi, my name is</p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#F29494] shadow-white'>
+          Jazzmine
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#418fbf] shadow-white'>
-          I'm a Full Stack Developer.
+          I'm a Cheer Professional.
         </h2>
-        <p className='text-[#f2e3b3] py-4 max-w-[700px] text-xl'>
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+        <p className='text-[#F2F2F2] py-4 max-w-[800px] text-xl'>
+        Cheer private lesson coach, tumbling instructor, chorographer, routine consultant.
         </p>
         <div>
-          <button className='text-white bg-[#418fbf] group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#f2695c]'>
+          <button className='text-white bg-[#F29494] group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#418fbf]'>
           <Link 
        
        to="work" 

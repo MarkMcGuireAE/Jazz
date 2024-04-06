@@ -1,58 +1,19 @@
 import React from 'react';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
+import Services from '../assets/services.jpg';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-[850px] bg-[#8b8b81cc] text-[#f2e3b3]'>
+    <div name='skills' className='w-full h-[3200px] bg-[#313640] text-[#F29494]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='text-center'>
-              <p className='text-4xl font-bold inline border-b-4 border-[#418fbf] shadow-white '>Skills</p>
-              <p className='py-4 text-2xl text-[#f2e3b3]'>These are some of the technologies I've learned</p>
+              <p className='text-4xl font-bold inline border-b-4 border-[#418fbf] shadow-white '>Services</p>
+              <p className='py-4 text-2xl text-[#F2F2F2]'></p>
           </div>
 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                  <p className='my-4'>HTML</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
-                  <p className='my-4'>CSS</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
-                  <p className='my-4'>JAVASCRIPT</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
-              </div>
-              <div className='shadow-md bg-[#418fbf] rounded-lg p-2 text-[#f2e3b3] shadow-[#594b20] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
-              </div>
-              
+          <div className='mx-auto'>
+          <img src={Services} alt="Logo Image" style={{width: "700px"}} />
           </div>
       </div>
     </div>
