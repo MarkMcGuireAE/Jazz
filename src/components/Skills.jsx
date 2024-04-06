@@ -4,7 +4,7 @@ import Services from '../assets/Services.jpg';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-[3200px] bg-[#313640] text-[#F29494]'>
+    <div name='skills' className='w-full max-h-[3200px] bg-[#313640] text-[#F29494]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='text-center'>
@@ -15,6 +15,8 @@ const Skills = () => {
           <div className='mx-auto'>
           <img src={Services} alt="Logo Image" style={{width: "700px"}} />
           </div>
+          <br></br>
+            <br></br>
       </div>
     </div>
   );
