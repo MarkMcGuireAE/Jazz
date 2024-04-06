@@ -21,11 +21,11 @@ const Home = () => {
           <button className='text-white bg-[#F29494] group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#418fbf]'>
           <Link 
        
-       to="work" 
+       to="skills" 
        smooth={true} 
        duration={500} 
                >
-       View Work
+       View Services
      </Link>
             
             <span className='group-hover:rotate-90 duration-300'>
