@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Services from '../assets/services.jpg';
+import Services from '../assets/Services.jpg';
 
 const Skills = () => {
   return (
