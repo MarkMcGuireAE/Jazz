@@ -20,7 +20,12 @@ const Navbar = () => {
      
         <div>
             <img src={Logo} alt="Logo Image" style={{width: "80px"}} />
+           
             
+        </div>
+        <div>
+        
+        <p>Call or Text 937.234.7837</p>
         </div>
         
 
@@ -48,16 +53,7 @@ const Navbar = () => {
        About
      </Link>
      </li>
-                <li>
-                <Link 
-       
-       to="skills" 
-       smooth={true} 
-       duration={500} 
-               >
-       Services
-     </Link>
-    </li>
+                
                 <li>
                 <Link 
        
@@ -68,6 +64,16 @@ const Navbar = () => {
        Experience
      </Link>
      </li>
+     <li>
+                <Link 
+       
+       to="skills" 
+       smooth={true} 
+       duration={500} 
+               >
+       Services
+     </Link>
+    </li>
                 <li>
                 <Link 
        
@@ -119,16 +125,6 @@ const Navbar = () => {
      <li  className='py-6 text-4xl'>
                 <Link onClick={handleClick}
        
-       to="skills" 
-       smooth={true} 
-       duration={500} 
-               >
-       Services
-     </Link>
-    </li>
-    <li  className='py-6 text-4xl'>
-                <Link onClick={handleClick}
-       
        to="work" 
        smooth={true} 
        duration={500} 
@@ -136,6 +132,17 @@ const Navbar = () => {
       Experience
      </Link>
      </li>
+     <li  className='py-6 text-4xl'>
+                <Link onClick={handleClick}
+       
+       to="skills" 
+       smooth={true} 
+       duration={500} 
+               >
+       Services
+     </Link>
+    </li>
+    
      <li className='py-6 text-4xl'>
                 <Link onClick={handleClick}
        

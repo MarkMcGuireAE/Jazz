@@ -15,7 +15,7 @@ const Home = () => {
           I'm a Cheer Professional.
         </h2>
         <p className='text-[#F2F2F2] py-4 max-w-[800px] text-xl'>
-        Cheer private lesson coach, tumbling instructor, chorographer, routine consultant.
+        Cheer private lesson coach, tumbling instructor, choreographer, routine consultant.
         </p>
         <div>
           <button className='text-white bg-[#F29494] group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#418fbf]'>
