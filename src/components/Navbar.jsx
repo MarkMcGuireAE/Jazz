@@ -23,7 +23,7 @@ const Navbar = () => {
            
             
         </div>
-        <div>
+        <div className='pl-96 hidden md:flex'>
         
         <p>Call or Text 937.234.7837</p>
         </div>
